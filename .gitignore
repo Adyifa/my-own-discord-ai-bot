@@ -1,0 +1,16 @@
+node_modules/
+dist/
+coverage/
+data/
+*.log
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Private personas (real Discord IDs, inside jokes, ...)
+personas/*.local.json
+
+# Local copy of the pre-refactor code
+.original-backup/

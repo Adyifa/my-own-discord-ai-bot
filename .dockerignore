@@ -1,0 +1,13 @@
+node_modules
+dist
+data
+coverage
+test
+.git
+.github
+.original-backup
+.env
+.env.*
+*.log
+# personas/ is copied on purpose (including *.local.json) so a locally built
+# image can use your private persona. Do not push such an image to a public registry.

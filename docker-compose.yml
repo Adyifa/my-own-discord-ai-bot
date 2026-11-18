@@ -1,0 +1,11 @@
+services:
+  bot:
+    build: .
+    restart: unless-stopped
+    env_file: .env
+    # Lets the container reach Ollama on the host via
+    # OLLAMA_BASE_URL=http://host.docker.internal:11434 (also on Linux).
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+    volumes:
+      - ./data:/app/data

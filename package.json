@@ -1,0 +1,40 @@
+{
+  "name": "carl-lite",
+  "version": "2.0.0",
+  "private": true,
+  "description": "Discord moderation bot with an LLM agent: tool calling, AI moderation, channel summaries and rolling memory on local (Ollama) or cloud (OpenAI-compatible) models.",
+  "type": "module",
+  "engines": {
+    "node": ">=20.6"
+  },
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "build": "tsc -p tsconfig.build.json",
+    "start": "node dist/index.js",
+    "register": "tsx src/register-commands.ts",
+    "typecheck": "tsc --noEmit",
+    "test": "tsx --test \"test/**/*.test.ts\"",
+    "check": "npm run typecheck && npm test",
+    "eval": "tsx src/evals/cli.ts"
+  },
+  "keywords": [
+    "discord-bot",
+    "llm",
+    "ai-agent",
+    "tool-calling",
+    "ollama",
+    "openai",
+    "moderation"
+  ],
+  "dependencies": {
+    "better-sqlite3": "^12.2.0",
+    "discord.js": "^14.22.1",
+    "dotenv": "^17.2.1"
+  },
+  "devDependencies": {
+    "@types/better-sqlite3": "^7.6.13",
+    "@types/node": "^24.1.0",
+    "tsx": "^4.20.3",
+    "typescript": "^5.8.3"
+  }
+}

@@ -1,0 +1,16 @@
+{"id":"q01","question":"Kapan scrim Valorant diadakan?","expectedDocument":"Events & Tournaments","mustInclude":["sabtu|saturday","19"]}
+{"id":"q02","question":"What's the Minecraft server IP?","expectedDocument":"Minecraft Server","mustInclude":["mc.nusantarahub.id"]}
+{"id":"q03","question":"Versi minecraft berapa yang dipakai server?","expectedDocument":"Minecraft Server","mustInclude":["1.20.4"]}
+{"id":"q04","question":"Boleh jual akun game di sini gak?","expectedDocument":"Server Rules","mustInclude":["tidak|dilarang|gak boleh|nggak boleh|ga boleh|not allowed|forbidden|prohibited"]}
+{"id":"q05","question":"How many warnings before I get banned?","expectedDocument":"Server Rules","mustInclude":["5|five|lima"]}
+{"id":"q06","question":"Gimana cara dapat role Verified?","expectedDocument":"Roles & Levels","mustInclude":["#roles|roles","✅|react|reaksi|centang"]}
+{"id":"q07","question":"What level do I need for the Veteran role?","expectedDocument":"Roles & Levels","mustInclude":["30"]}
+{"id":"q08","question":"Hadiah turnamen MLBB bulanan berapa?","expectedDocument":"Events & Tournaments","mustInclude":["500"]}
+{"id":"q09","question":"When does tournament registration close?","expectedDocument":"Events & Tournaments","mustInclude":["friday|jumat","23:59|23.59"]}
+{"id":"q10","question":"Syarat jadi moderator apa aja?","expectedDocument":"Roles & Levels","mustInclude":["3","20"]}
+{"id":"q11","question":"Which Minecraft mods are allowed?","expectedDocument":"Minecraft Server","mustInclude":["sodium|optifine"]}
+{"id":"q12","question":"Where should I post spoilers for a new anime?","expectedDocument":"Server Rules","mustInclude":["#spoilers"]}
+{"id":"q13","question":"Jam berapa kita main bareng di dunia kotak-kotak tiap hari Minggu?","expectedDocument":"Events & Tournaments","mustInclude":["16"]}
+{"id":"q14","question":"How do I get a fancy coloured nickname?","expectedDocument":"Roles & Levels","mustInclude":["50"]}
+{"id":"q15","question":"Apakah boleh pakai cheat tembus pandang buat nyari diamond?","expectedDocument":"Minecraft Server","mustInclude":["ban|dilarang|tidak boleh|not allowed"]}
+{"id":"q16","question":"Who should I contact if my squad must replace someone before the competition?","expectedDocument":"Events & Tournaments","mustInclude":["organizer|organiser|panitia"]}
